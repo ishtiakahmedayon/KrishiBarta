@@ -1,0 +1,8 @@
+{
+  "name": "KrishiApp - Agricultural Market Prices, Pesticides & Extension Services",
+  "description": "Comprehensive agricultural dashboard for Bangladesh featuring real-time crop market prices, crop protection and pesticide dosage guides, and district agricultural extension office contacts.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
