@@ -11,7 +11,7 @@ class KrishiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'কৃষিঅ্যাপ',
+      title: 'কৃষি বার্তা',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,

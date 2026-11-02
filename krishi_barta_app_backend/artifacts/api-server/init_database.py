@@ -1,8 +1,6 @@
 """
 init_database.py — Creates and seeds the PostgreSQL database for KrishiApp on Render.
 
-Run directly to reset/seed the database:
-    python init_database.py
 """
 
 import os
@@ -49,7 +47,7 @@ def init_db():
         )
         """
     )
-    # Ensure existing tables with NUMERIC are migrated to DOUBLE PRECISION
+
     try:
         cursor.execute("ALTER TABLE prices ALTER COLUMN price TYPE DOUBLE PRECISION USING price::DOUBLE PRECISION")
     except Exception:

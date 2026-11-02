@@ -66,7 +66,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: const Color(0xFFF1F8E9),
       appBar: AppBar(
         title: const Text(
-          'কৃষিঅ্যাপ',
+          'কৃষি বার্তা',
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
         ),
         centerTitle: true,
@@ -274,7 +274,7 @@ class HomeScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
-                            'কৃষিঅ্যাপ',
+                            'কৃষি বার্তা',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 21,
@@ -322,7 +322,7 @@ class HomeScreen extends StatelessWidget {
                     Navigator.pop(context);
                     showAboutDialog(
                       context: context,
-                      applicationName: 'কৃষিঅ্যাপ',
+                      applicationName: 'কৃষি বার্তা',
                       applicationVersion: '১.০.০',
                       applicationIcon: const Icon(Icons.grass,
                           color: Colors.green, size: 36),
