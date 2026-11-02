@@ -1,5 +1,5 @@
-name: krishiapp
-description: "কৃষিঅ্যাপ - সবজির দাম, আবহাওয়া, কীটনাশক ও কৃষি অফিস তথ্য"
+name: krishibarta
+description: "কৃষি বার্তা - সবজির দাম, আবহাওয়া, কীটনাশক ও কৃষি অফিস তথ্য"
 publish_to: 'none'
 version: 1.0.0+1
 
