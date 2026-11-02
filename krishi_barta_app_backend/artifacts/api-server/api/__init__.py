@@ -8,6 +8,7 @@ from flask import Flask, jsonify
 from .prices import prices_bp
 from .pesticides import pesticides_bp
 from .krishi_office import krishi_office_bp
+from .weather import weather_bp
 
 
 def create_app():
@@ -40,6 +41,7 @@ def create_app():
     app.register_blueprint(prices_bp)
     app.register_blueprint(pesticides_bp)
     app.register_blueprint(krishi_office_bp)
+    app.register_blueprint(weather_bp)
 
     # ------------------------------------------------------------------
     # Generic error handlers
